@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "(gdb) Attach",
+        "type": "cppdbg",
+        "request": "attach",
+        "program": "enter program name, for example ${workspaceFolder}/a.exe",,
+        "MIMode": "gdb",
+        "miDebuggerPath": "/path/to/gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description":  "Set Disassembly Flavor to Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    },
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch add2Numbers",
+            "request": "launch",
+            "mainClass": "add2Numbers",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch allocateMinPages",
+            "request": "launch",
+            "mainClass": "allocateMinPages",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch bidding",
+            "request": "launch",
+            "mainClass": "bidding",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch candies",
+            "request": "launch",
+            "mainClass": "candies",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch connectingNropes",
+            "request": "launch",
+            "mainClass": "connectingNropes",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch distElemWindow",
+            "request": "launch",
+            "mainClass": "distElemWindow",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch domiantElem",
+            "request": "launch",
+            "mainClass": "domiantElem",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch infiniteSortedArray",
+            "request": "launch",
+            "mainClass": "infiniteSortedArray",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch josephusProblem",
+            "request": "launch",
+            "mainClass": "josephusProblem",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxRectAreaHist",
+            "request": "launch",
+            "mainClass": "maxRectAreaHist",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch medianInStream",
+            "request": "launch",
+            "mainClass": "medianInStream",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch passTheExam",
+            "request": "launch",
+            "mainClass": "passTheExam",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch plaindromeLL",
+            "request": "launch",
+            "mainClass": "plaindromeLL",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch roomCalc",
+            "request": "launch",
+            "mainClass": "roomCalc",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch rotatedSortedArray",
+            "request": "launch",
+            "mainClass": "rotatedSortedArray",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch slowSolution",
+            "request": "launch",
+            "mainClass": "slowSolution",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallestNumberOnLeft",
+            "request": "launch",
+            "mainClass": "smallestNumberOnLeft",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch splitN",
+            "request": "launch",
+            "mainClass": "splitN",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch stocksMaximiseProfit",
+            "request": "launch",
+            "mainClass": "stocksMaximiseProfit",
+            "projectName": "Codechef_fcc82416"
+        },
+        {
+            "type": "java",
+            "name": "Launch trappingWater",
+            "request": "launch",
+            "mainClass": "trappingWater",
+            "projectName": "Codechef_fcc82416"
+        }
+    ]
+}
