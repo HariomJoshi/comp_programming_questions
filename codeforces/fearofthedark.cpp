@@ -3,6 +3,10 @@ using namespace std;
 long double distance(int p1[2], int p2[2]){
     return sqrt((p1[0]-p2[0])*(p1[0]-p2[0]) + (p1[1]-p2[1])*(p1[1]-p2[1]));
 }
+
+long double scircle(int p1[2], int p2[2], int radius){
+    return (p2[0]*p2[0] + p2[1]*p2[1] - 2*p1[0]*p2[0] -2*p1[1]*p2[1]-radius*radius);
+}
 int main(){ 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -18,17 +22,17 @@ int main(){
         long double b = distance(B,O);
         long double c = distance(A,P);
         long double d = distance(A,O);
-        long double max1 = (a>b)?a:b;
-        long double max2 = (c>d)?c:d;
-        long double min = (max1>max2)?max2:max1;
-        long double dist = distance(A,B)/2;
-        long double ans;
-        if((a<=dist && d<=dist)|| (b<=dist&& c<=dist) || (d<=dist&& a<=dist)||(b<=dist&&c<=dist)){
-            ans = (min>dist)? dist:min;
-        }else{
-            ans = min;
-        }
-        cout<< ans << "\n";
+        long double dist = distance(A,B);
+        long double ans = 1e9;
+        ans = min(ans, max(c,d));
+        ans = min(ans, max(a,b));
+        ans = min(ans, max({dist/2, b,c}));
+        ans = min(ans, max({dist/2, a, d}));
+
+
+        cout<< setprecision(11)<< ans<< endl;
+
+        
     }
     return 0;
 }
