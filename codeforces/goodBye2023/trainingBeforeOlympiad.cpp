@@ -4,11 +4,15 @@ using namespace std;
 int main(){ 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    freopen("input.txt", "r", stdin); // read input from input.txt
-    freopen("output.txt", "w", stdout);  // write output to output.txt
+
     int t;
     cin>>t;
-    while(t--){
+    for(int i =0; i<t; i++){
+        int n;
+        cin>>n;
+        for(int j =0;j<n;j++){
+            
+        }
         
     }
     return 0;

@@ -8,10 +8,9 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t;
-    cin>>t;
-    while(t--){
-        
-    }
+    int a = 200000;
+    int b = 199999;
+    long long ans = (long long)a*b;
+    cout<< ans<< endl;
     return 0;
 }

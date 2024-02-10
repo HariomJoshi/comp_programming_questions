@@ -11,7 +11,12 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        
+        int a,b,k;
+        cin>>a>>b>>k;
+        if(k> min(a,b)/2){
+            cout<< "NO"<< '\n';
+            continue;
+        }   
     }
     return 0;
 }
