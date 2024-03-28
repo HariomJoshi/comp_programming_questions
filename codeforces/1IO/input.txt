@@ -1,0 +1,16 @@
+5
+3
+acb
+abc
+5
+acbcb
+ccbab
+5
+abacc
+cbcaa
+9
+abcbaabcb
+abcbaabcb
+6
+aabcbc
+ccbaba
